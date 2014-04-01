@@ -1,4 +1,4 @@
-MiscPeripheral
+MiscPeripherals
 ==============
 
 My attempt at maintaining this great mod, from the source code posted by @richardg867
