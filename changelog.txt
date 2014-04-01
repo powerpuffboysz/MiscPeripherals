@@ -1,0 +1,54 @@
+3.3f:
+! **EXPERIMENTAL NEW CHUNK LOADING ALGORITHM** - PLEASE tell me if your chunkloading turtles break.
+! Disabled GregTech recipes for now since they are needlessly causing problems
+- Added rate limiting to the Speaker peripheral
+- Fixed Resupply Station behavior, they should no longer need a chunkloader
+
+3.3e:
+! Tesseract getMode() now returns 0 for send only, 1 for receive only or 2 for send/receive
+- Fixed icons for Fireworks and Energy Meter upgrades (thanks HanFox!)
+- Fixed GregTech charge station recipes
+- Fixed ME Bridge craft() argument checking
+- Fixed tesseract peripheral handler issue
+- Fixed Nuclear Information Reader issue
+
+3.3d:
+- Finally fixed speech on Windows!
+- Fixed Inventory misbehavior and Integer.MAX_VALUE stacks
+- Fixed upgrades in creative tab
+
+3.3c:
+- Added turtle upgrades to creative tabs
+- Fixed ID conflict in the default configs
+- Updated Forestry integration to 2.2.6.0
+- If Windows speech fails, some debug info should be printed to the console
+
+3.3b:
+- Fixed ME Bridges doing a nice-looking but client-crashing oil spill of items
+- Fixed recipes involving ComputerCraft, BuildCraft and Thermal Expansion items
+
+3.3:
+- *** THE END for modems in chunk loaders. *** Not coming back unless I strike a deal.
+- Added Grafter and Scoop turtles
+- Added Smart Helmet and Smallnet Sender
+- Added Energy Meter peripheral and turtle upgrade
+- Added Tool Builder turtle
+- Added Chest and Multi Page turtles
+- Added Butterfly Analyzer peripheral
+- Added Firework turtle. There was code for it in the Firework Launcher, but it was disabled
+- Added tell function to Chat Box
+- Added inventory reading to minecarts on a Rail Reader
+- Added tesseract peripheral wrapper
+- Fixed annoying rendering issue with lasers and treetaps
+- Fixed speech accidentally requiring Java 7
+- Fixed MFFS2 support
+- Fixed the tree analyzer missing some new traits
+- Fixed some peripherals not mounting the built-in programs
+- Wrench turtles now use OmniWrenches. No feature loss expected
+- Inventory turtles and crafters now use 1-based slot numbers rather than 0-based. I'm so sorry!
+- Gate Readers in block form now have a 9-slot inventory which mimicks the functionality of the turtle version
+- Updated Forestry integration to 2.2.4.0
+- Updated built-in programs to support peripherals connected via wired network
+- Built-in programs should no longer create copies of themselves
+- The BF virtual machine in Hardware Accelerators has been rewritten
+- Removed redstone feature from Charge Stations due to bad behavior

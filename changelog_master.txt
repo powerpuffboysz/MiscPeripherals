@@ -1,0 +1,8 @@
+3.4:
+! Changed Railcraft TNT cart Rail Reader name from tnt to tntWood
+- Added Redstone Box peripheral
+- Added color, routing, water/steam tank and reverse speed information to Railcraft locomotives on Rail Readers
+- Added fuel burn time information to Railcraft locomotives and tunnel bores on Rail Readers
+- Added reverse speed to Railcraft Limiter Track peripheral
+- Fixed Railcraft locomotives on Rail Readers
+- Fixed Railcraft tunnel bores on Rail Readers reporting bore head damage as part of the item ID
